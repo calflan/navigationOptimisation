@@ -1,0 +1,11 @@
+{
+  "name": "Project",
+  "version": "1.0.0",
+  "description": "A simple website to test different navigation positions.",
+  "author": "Calum Flanagan",
+  "dependencies": {
+    "gulp-cssmin": "^0.1.7",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0"
+  }
+}
