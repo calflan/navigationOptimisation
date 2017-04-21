@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Cupcakes by Olivia</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONTS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/sass.min.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <header>
+    <img class="logo" src="images/favicon.png"/>
+    <h1>Cupcakes By Olivia</h1>
+  </header>
+
+  <nav class="topnav">
+    <ul class="split" style="float: left;">
+      <li class="nav-item"><a href="index.html" class="dropbtn">Home</a></li>
+
+      <li class="nav-item">
+        <a href="#" onclick="cupcakeDrop()" class="dropbtn">Cupcakes &#x25BC;</a>
+        <ul id="cupcakeDrop" class="dropdown-content">
+          <li><a href="classic-cupcakes.html">Classic Cupcakes</a></li>
+          <li><a href="wedding-cupcakes.html">Wedding Cupcakes</a></li>
+          <li class="sub">
+            <a href="#">Limited Editions &#x25BC;</a>
+            <ul class="sub-menu">
+              <li><a href="limited-cupcakes.html">Cupcakes</a></li>
+              <li><a href="image-cupcakes.html">Edible Image Cupcakes</a></li>
+              <li><a href="baby-cupcakes.html">Baby Celebration</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" onclick="cakesDrop()" class="dropbtn">Cakes &#x25BC;</a>
+        <ul id="cakesDrop" class="dropdown-content">
+          <li><a href="classic-cakes.html">Classic Cakes</a></li>
+          <li><a href="wedding-cakes.html">Wedding Cakes</a></li>
+          <li class="sub">
+            <a href="#">Limited Editions &#x25BC;</a>
+            <ul class="sub-menu">
+              <li><a href="limited-cakes.html">Cakes</a></li>
+              <li><a href="image-cakes.html">Edible Image Cakes</a></li>
+              <li><a href="baby-cakes.html">Baby Celebration Cakes</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <ul class="split right-float" style="float: right;">
+      <li class="nav-item"><a href="contact.html" class="dropbtn">Contact</a></li>
+
+      <li class="nav-item">
+        <a href="#" onclick="freefromDrop()" class="dropbtn">Free From &#x25BC;</a>
+        <ul id="freefromDrop" class="dropdown-content">
+          <li><a href="free-cakes.html">Cakes</a></li>
+          <li><a href="free-cupcakes.html">Cupcakes</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <section class="row">
+      <div class="twelve columns" style="margin-top: 5%;">
+        <h2>Baby Celebration Cakes</h2>
+      </div>
+    </section>
+
+    <section class="row">
+      <div class="four columns">
+        <div class="overlay-container">
+          <img src="images/shower-cake.png" class="global-img" alt="baby shower cake">
+
+          <div class="overlay">
+            <div class="text"><p>Baby Shower Cake</p></div>
+          </div>
+        </div>
+        <p>Price: £25</p>
+      </div>
+
+      <div class="four columns">
+        <div class="overlay-container">
+          <img src="images/boy-cake.png" class="global-img" alt="it's a boy cake">
+
+          <div class="overlay">
+            <div class="text"><p>It's a Boy cake</p></div>
+          </div>
+        </div>
+        <p>Price: £20</p>
+      </div>
+
+      <div class="four columns">
+        <div class="overlay-container">
+          <img src="images/girl-cake.png" class="global-img" alt="it's a girl cake">
+
+          <div class="overlay">
+            <div class="text"><p>It's a Girl cake</p></div>
+          </div>
+        </div>
+        <p>Price: £20</p>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>2017 CupcakesByOlivia</p>
+  </footer>
+
+
+
+
+<!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="js/navToggle.js"></script>
+
+
+
+
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
